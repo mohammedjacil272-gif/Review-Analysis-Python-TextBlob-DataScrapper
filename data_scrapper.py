@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 import time 
 import csv
 #create variable to store the website link
-web_url="https://en.wikipedia.org/wiki/The_Big_Bang_Theory"
+web_url="add your wikipedia_link here "
 #create a variable to store agent data
 header_data={'User-agent':'EthicalScrapper/1.0'}
 #create a variable to store data obtained from get() that fetches page content
@@ -19,8 +19,8 @@ time.sleep(3)
 soup = BeautifulSoup(web.text,'html.parser')
 #create a starting point 
 target_element = soup.find(id='American_ratings')
-#create and open the csv file to store the information that is going to be extracted
-csv_file= open("bigbangtheory-neutral-response.csv",'w',newline='', encoding='utf-8')
+#create and open the csv file to store the information that is going to be extracted 
+csv_file= open('dummy_file.csv','w',newline='', encoding='utf-8')
 #use csv.writer to write content
 csv_writer = csv.writer(csv_file)
 #create a row in csv file 

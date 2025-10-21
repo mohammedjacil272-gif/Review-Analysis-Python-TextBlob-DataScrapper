@@ -6,7 +6,7 @@ import csv
 #create a list to store all polarity scores
 all_polarities = []
 #open csv file to read its content
-with open ('breakingbad-positive-response.csv','r',newline='',encoding='utf-8') as data_file :
+with open ('dummy_file.csv','r',newline='',encoding='utf-8') as data_file :
     #this is used to reading data off the csv file 
     data_reader = csv.reader(data_file)
     #read content and add polarity score to all_polarity list
