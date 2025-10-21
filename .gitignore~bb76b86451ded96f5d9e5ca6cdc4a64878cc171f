@@ -1,0 +1,17 @@
+# Virtual environment folder created by 'python -m venv venv'
+
+venv/
+
+# Byte-code files: Python automatically creates these.
+
+**pycache**/
+\*.pyc
+
+# Operating System generated files (Mac/Windows)
+
+.DS_Store # Mac operating system files
+
+# IDE/Editor specific files
+
+.vscode/ # VS Code settings for your machine
+.idea/ # PyCharm project settings
