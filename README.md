@@ -36,7 +36,7 @@ The project consists of two separate scripts:
 
 #### **1. Scrape the Data**
 
-Run the scraper to extract review paragraphs from the target URL (add your url in the "add your wikipedia link" section of the code, targeting the 'American_ratings' section).
+Run the scraper to extract review paragraphs from the target URL (add your url in the "add your wikipedia link" section of the code, targeting the 'Critical_response' section).
 
 ```bash
 python data_scrapper.py
