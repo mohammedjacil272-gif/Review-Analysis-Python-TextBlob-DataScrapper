@@ -18,7 +18,7 @@ time.sleep(3)
 #parse the information obtained and create a variable to store it
 soup = BeautifulSoup(web.text,'html.parser')
 #create a starting point 
-target_element = soup.find(id='American_ratings')
+target_element = soup.find(id='Critical_response')
 #create and open the csv file to store the information that is going to be extracted 
 csv_file= open('dummy_file.csv','w',newline='', encoding='utf-8')
 #use csv.writer to write content
