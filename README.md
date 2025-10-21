@@ -9,7 +9,7 @@ This project demonstrates: * Ethical web scraping with `BeautifulSoup` and `requ
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/YourUsername/Review-Analysis-Python-TextBlob-DataScrapper.git](https://github.com/YourUsername/Review-Analysis-Python-TextBlob-DataScrapper.git)
+    git clone [https://github.com/YourUsername/Review-Analysis-Python-TextBlob-DataScrapper.git](https://github.com/mohammedjacil272-gif/Review-Analysis-Python-TextBlob-DataScrapper.git)
     cd Review-Analysis-Python-TextBlob-DataScrapper
     ```
 
@@ -36,7 +36,7 @@ The project consists of two separate scripts:
 
 #### **1. Scrape the Data**
 
-Run the scraper to extract review paragraphs from the target URL (currently configured for a Wikipedia article, such as The Big Bang Theory, targeting the 'Critical response' section).
+Run the scraper to extract review paragraphs from the target URL (add your url in the "add your wikipedia link" section of the code, targeting the 'American_ratings' section).
 
 ```bash
 python data_scrapper.py
